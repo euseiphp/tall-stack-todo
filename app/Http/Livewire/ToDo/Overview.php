@@ -3,10 +3,10 @@
 namespace App\Http\Livewire\ToDo;
 
 use App\Models\Todo;
-use Livewire\Component;
-use Illuminate\Validation\Rule;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Validation\Rule;
+use Livewire\Component;
 
 class Overview extends Component
 {

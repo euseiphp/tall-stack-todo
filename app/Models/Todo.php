@@ -3,9 +3,9 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
  * App\Models\Todo
@@ -13,10 +13,11 @@ use Illuminate\Database\Eloquent\Model;
  * @property string $id
  * @property int $user_id
  * @property string $title
- * @property boolean $is_completed
+ * @property bool $is_completed
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \App\Models\User $user
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|Todo newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Todo newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Todo query()
